@@ -1,0 +1,24 @@
+.navbar{
+    grid-row: 1;
+    grid-column: 1 / span 5;
+    background-color: rgb(39, 44, 49);
+    padding: 0% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(62, 62, 62);
+    color: white;
+}
+
+.heading{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.searchbar{
+    width: 30%;
+    padding: 0.3% 1%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+}
